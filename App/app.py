@@ -29,6 +29,7 @@
 import config as cf
 import sys
 import csv
+import pytest 
 from time import process_time 
 
 def loadCSVFile (file, lst, sep=";"):
